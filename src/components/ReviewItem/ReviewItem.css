@@ -1,0 +1,52 @@
+.riview-details-container {
+    margin: 17px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.review-item {
+    display: flex;
+    border: 1px solid grey;
+    width: 571px;
+
+    margin: 21px auto;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+.review-item img {
+    width: 91px;
+}
+
+.riview-details {
+    margin: 0;
+}
+
+.delete-container {
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.btn-delete {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: peachpuff;
+}
+
+.delete-container :hover {
+    background-color: rgb(198, 92, 92);
+    cursor: pointer;
+}
+
+.delete-icon {
+    font-size: 31px;
+
+    color: plum;
+}
